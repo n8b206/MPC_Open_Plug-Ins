@@ -17,7 +17,7 @@ Instruments and effects for Akai MPC standalone hardware (MPC Live, One, Key, X)
 
 ## Install on your MPC
 
-1. Download the zip files from the [Releases page](../../releases/latest).
+1. Download the zips: [Chord Bloom 1.4.1](downloads/chord-bloom-1.4.1-mpc.zip) and [Bloom Voice 1.0.0](downloads/bloom-voice-1.0.0-mpc.zip) (on the file's page, tap the download button).
 2. Unzip them on your computer. Each one gives you a folder named like `N8b - VST - Chord Bloom`.
 3. On a USB stick or SD card, make a folder called `VST2 Plugins` at the top level (not inside another folder), and put those folders in it.
 4. Put the drive in your MPC. Go to **Preferences > Enhancements (Beta)** and turn on **Enable Enhancements** and **External Plugin Support**.
