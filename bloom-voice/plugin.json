@@ -1,0 +1,17 @@
+{
+  "name": "Bloom Voice",
+  "manufacturer": "N8b",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "N8Bv",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Effect",
+  "file32": "VST/bloom-voice-arm32.so",
+  "file64": "VST/bloom-voice-arm64.so",
+  "description": "Bloom Voice: a 16-band vocoder. Put it on a submix with Chord Bloom (Output = Vocoder L) on the left and your mic panned right, and your voice sings the chords.",
+  "author": "N8b",
+  "url": "",
+  "license": "MIT"
+}

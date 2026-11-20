@@ -1,0 +1,62 @@
+{
+  "kit": {
+    "theme": "amber",
+    "accent": "ffe6b14b"
+  },
+  "style": {
+    "background": "fff3e7d0",
+    "text": "ff281d13",
+    "muted": "ff81481e",
+    "accent": "ffc98a1e"
+  },
+  "pages": [
+    {
+      "name": "VOICE",
+      "controls": [
+        {
+          "param": "Mix",
+          "widget": "knob"
+        },
+        {
+          "param": "Mic Gain",
+          "widget": "knob"
+        },
+        {
+          "param": "Formant",
+          "widget": "knob",
+          "polarity": "bipolar"
+        },
+        {
+          "param": "Release",
+          "widget": "knob"
+        },
+        {
+          "param": "Sibilance",
+          "widget": "knob"
+        },
+        {
+          "param": "Breath",
+          "widget": "knob"
+        },
+        {
+          "param": "Synth Thru",
+          "widget": "knob"
+        },
+        {
+          "param": "Mic Gate",
+          "widget": "knob"
+        },
+        {
+          "param": "Inputs",
+          "widget": "switch"
+        },
+        {
+          "param": "Output",
+          "widget": "fader"
+        },
+        "empty",
+        "empty"
+      ]
+    }
+  ]
+}

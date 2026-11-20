@@ -1,0 +1,371 @@
+{
+  "kit": {
+    "theme": "amber",
+    "accent": "ffe6b14b"
+  },
+  "pages": [
+    {
+      "name": "PERFORM",
+      "controls": [
+        {
+          "param": "Filter",
+          "widget": "knob",
+          "polarity": "bipolar"
+        },
+        "empty",
+        "empty",
+        "empty",
+        {
+          "param": "Delay",
+          "widget": "knob"
+        },
+        "empty",
+        "empty",
+        "empty",
+        {
+          "param": "Reverb",
+          "widget": "knob"
+        },
+        "empty",
+        "empty",
+        "empty",
+        {
+          "param": "Drive",
+          "widget": "knob"
+        },
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "name": "PADS",
+      "controls": [
+        "empty",
+        "empty",
+        "empty",
+        {
+          "param": "Key",
+          "widget": "slider",
+          "overlay": "menu"
+        },
+        "empty",
+        "empty",
+        "empty",
+        {
+          "param": "Scale",
+          "widget": "switch"
+        },
+        "empty",
+        "empty",
+        "empty",
+        {
+          "param": "Top Pads",
+          "widget": "switch"
+        },
+        "empty",
+        "empty",
+        "empty",
+        {
+          "param": "Play Mode",
+          "widget": "switch"
+        }
+      ]
+    },
+    {
+      "name": "CHORD",
+      "controls": [
+        {
+          "param": "Chord",
+          "widget": "slider",
+          "overlay": "menu"
+        },
+        {
+          "param": "Chord Mode",
+          "widget": "switch"
+        },
+        {
+          "param": "Key",
+          "widget": "slider",
+          "overlay": "menu"
+        },
+        {
+          "param": "Scale",
+          "widget": "switch"
+        },
+        {
+          "param": "Add 6",
+          "widget": "switch"
+        },
+        {
+          "param": "Add m7",
+          "widget": "switch"
+        },
+        {
+          "param": "Add maj7",
+          "widget": "switch"
+        },
+        {
+          "param": "Add 9",
+          "widget": "switch"
+        },
+        {
+          "param": "Chord Keys",
+          "widget": "switch"
+        },
+        {
+          "param": "Zone Start",
+          "widget": "slider"
+        },
+        {
+          "param": "Pad Learn",
+          "widget": "switch"
+        },
+        {
+          "param": "Key Latch",
+          "widget": "switch"
+        },
+        {
+          "param": "Top Pads",
+          "widget": "switch"
+        }
+      ]
+    },
+    {
+      "name": "VOICING",
+      "controls": [
+        {
+          "param": "Inversion",
+          "widget": "knob"
+        },
+        {
+          "param": "Voicing",
+          "widget": "switch"
+        },
+        {
+          "param": "Voice Lead",
+          "widget": "switch"
+        },
+        {
+          "param": "Octave",
+          "widget": "knob",
+          "polarity": "bipolar"
+        },
+        {
+          "param": "Bass Note",
+          "widget": "switch"
+        },
+        "empty",
+        "empty",
+        "empty"
+      ]
+    },
+    {
+      "name": "PLAY",
+      "controls": [
+        {
+          "param": "Play Mode",
+          "widget": "switch"
+        },
+        {
+          "param": "Strum Time",
+          "widget": "knob"
+        },
+        {
+          "param": "Strum Dir",
+          "widget": "switch"
+        },
+        {
+          "param": "Humanize",
+          "widget": "knob"
+        },
+        {
+          "param": "Arp Rate",
+          "widget": "slider",
+          "overlay": "menu"
+        },
+        {
+          "param": "Arp Dir",
+          "widget": "switch"
+        },
+        {
+          "param": "Arp Gate",
+          "widget": "fader"
+        },
+        {
+          "param": "Arp Octaves",
+          "widget": "knob"
+        },
+        {
+          "param": "Velocity",
+          "widget": "knob"
+        },
+        {
+          "param": "Vel Curve",
+          "widget": "switch"
+        },
+        {
+          "param": "Aftertouch",
+          "widget": "knob"
+        },
+        {
+          "param": "AT Target",
+          "widget": "slider",
+          "overlay": "menu"
+        }
+      ]
+    },
+    {
+      "name": "SOUND",
+      "controls": [
+        {
+          "param": "Brightness",
+          "widget": "knob"
+        },
+        {
+          "param": "Resonance",
+          "widget": "knob"
+        },
+        {
+          "param": "Filter Env",
+          "widget": "knob"
+        },
+        {
+          "param": "Velocity",
+          "widget": "knob"
+        },
+        {
+          "param": "Engine",
+          "widget": "switch"
+        },
+        {
+          "param": "Wave",
+          "widget": "switch"
+        },
+        {
+          "param": "Detune",
+          "widget": "knob"
+        },
+        {
+          "param": "Tine",
+          "widget": "knob"
+        },
+        {
+          "param": "Attack",
+          "widget": "fader"
+        },
+        {
+          "param": "Decay",
+          "widget": "fader"
+        },
+        {
+          "param": "Sustain",
+          "widget": "fader"
+        },
+        {
+          "param": "Release",
+          "widget": "fader"
+        }
+      ]
+    },
+    {
+      "name": "KEYS",
+      "controls": [
+        {
+          "param": "Engine",
+          "widget": "switch"
+        },
+        {
+          "param": "Piano Blend",
+          "widget": "knob",
+          "polarity": "bipolar"
+        },
+        {
+          "param": "Brightness",
+          "widget": "knob"
+        },
+        {
+          "param": "Release",
+          "widget": "knob"
+        },
+        {
+          "param": "Organ Tone",
+          "widget": "switch"
+        },
+        {
+          "param": "Percussion",
+          "widget": "switch"
+        },
+        {
+          "param": "Rotary",
+          "widget": "switch"
+        },
+        {
+          "param": "Rotor Speed",
+          "widget": "knob"
+        }
+      ]
+    },
+    {
+      "name": "MIX",
+      "controls": [
+        {
+          "param": "Delay Time",
+          "widget": "slider",
+          "overlay": "menu"
+        },
+        {
+          "param": "Feedback",
+          "widget": "knob"
+        },
+        {
+          "param": "Room Size",
+          "widget": "knob"
+        },
+        {
+          "param": "Verb Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Chorus",
+          "widget": "fader"
+        },
+        {
+          "param": "Chorus Rate",
+          "widget": "knob"
+        },
+        {
+          "param": "Chorus Depth",
+          "widget": "knob"
+        },
+        {
+          "param": "Volume",
+          "widget": "fader"
+        },
+        {
+          "param": "Output",
+          "widget": "switch"
+        },
+        {
+          "param": "MIDI Out",
+          "widget": "slider",
+          "overlay": "menu"
+        },
+        {
+          "param": "Synth Sound",
+          "widget": "switch"
+        },
+        {
+          "param": "Bee Mode",
+          "widget": "switch"
+        }
+      ]
+    }
+  ],
+  "style": {
+    "background": "fff3e7d0",
+    "text": "ff140d07",
+    "muted": "ff4e2a0e",
+    "accent": "ffc98a1e"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Chord Bloom",
+  "manufacturer": "N8b",
+  "version": "1.4.1",
+  "format": "vst2",
+  "kind": "instrument",
+  "uid": "N8Cb",
+  "numInputs": 0,
+  "numOutputs": 2,
+  "category": "Synth",
+  "file32": "VST/chord-bloom-arm32.so",
+  "file64": "VST/chord-bloom-arm64.so",
+  "description": "One-finger chord instrument: hold a chord type, play roots. Voicings, voice leading, strum and arp, built-in pad/keys synth with chorus.",
+  "author": "N8b",
+  "url": "",
+  "license": "MIT"
+}
