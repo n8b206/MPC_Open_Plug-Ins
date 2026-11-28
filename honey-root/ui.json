@@ -1,0 +1,320 @@
+{
+  "kit": {
+    "theme": "amber",
+    "accent": "ffe6b14b"
+  },
+  "pages": [
+    {
+      "name": "PLAY",
+      "controls": [
+        {
+          "param": "Voicing",
+          "widget": "knob",
+          "polarity": "bipolar"
+        },
+        "empty",
+        "empty",
+        "empty",
+        {
+          "param": "Perform",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        "empty",
+        "empty",
+        "empty",
+        {
+          "param": "Bass Level",
+          "widget": "fader"
+        },
+        "empty",
+        "empty",
+        "empty",
+        {
+          "param": "Reverb",
+          "widget": "fader"
+        }
+      ]
+    },
+    {
+      "name": "CHORD",
+      "controls": [
+        {
+          "param": "Lock",
+          "widget": "switch"
+        },
+        {
+          "param": "Voicing",
+          "widget": "knob",
+          "polarity": "bipolar"
+        },
+        {
+          "param": "Key Mode",
+          "widget": "switch"
+        },
+        {
+          "param": "Layout",
+          "widget": "switch"
+        },
+        {
+          "param": "Latch",
+          "widget": "switch"
+        },
+        {
+          "param": "Octave",
+          "widget": "knob",
+          "polarity": "bipolar"
+        },
+        {
+          "param": "Key",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Block Start",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Play Style",
+          "widget": "switch"
+        },
+        {
+          "param": "6th with 7th",
+          "widget": "switch"
+        },
+        {
+          "param": "Scale",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Split Bass",
+          "widget": "switch"
+        },
+        {
+          "param": "Secret Chords",
+          "widget": "switch"
+        },
+        {
+          "param": "Velocity",
+          "widget": "fader"
+        },
+        {
+          "param": "Transpose",
+          "widget": "knob",
+          "polarity": "bipolar"
+        },
+        {
+          "param": "Pad Learn",
+          "widget": "switch"
+        }
+      ]
+    },
+    {
+      "name": "PERFORM",
+      "controls": [
+        {
+          "param": "Perform",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Perf Gate",
+          "widget": "knob"
+        },
+        {
+          "param": "Pattern",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        "empty",
+        {
+          "param": "Perf Rate",
+          "widget": "knob"
+        },
+        {
+          "param": "Perf Swing",
+          "widget": "knob"
+        },
+        "empty",
+        "empty",
+        {
+          "param": "Perf Div",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Perf Range",
+          "widget": "knob"
+        },
+        "empty",
+        "empty",
+        {
+          "param": "Perf Dir",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Slop",
+          "widget": "knob"
+        }
+      ]
+    },
+    {
+      "name": "BASS",
+      "controls": [
+        {
+          "param": "Bass Mode",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Bass Perform",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Bass Tone",
+          "widget": "knob"
+        },
+        "empty",
+        {
+          "param": "Bass Register",
+          "widget": "knob",
+          "polarity": "bipolar"
+        },
+        {
+          "param": "Bass Div",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Bass Decay",
+          "widget": "knob"
+        },
+        "empty",
+        {
+          "param": "Bass Level",
+          "widget": "fader"
+        },
+        {
+          "param": "Bass Dir",
+          "widget": "switch"
+        },
+        {
+          "param": "Bass Glide",
+          "widget": "knob"
+        },
+        "empty",
+        {
+          "param": "Bass Sound",
+          "widget": "switch"
+        },
+        {
+          "param": "Bass Gate",
+          "widget": "knob"
+        }
+      ]
+    },
+    {
+      "name": "SOUND",
+      "controls": [
+        {
+          "param": "Engine",
+          "widget": "switch"
+        },
+        {
+          "param": "Brightness",
+          "widget": "knob"
+        },
+        {
+          "param": "Attack",
+          "widget": "fader"
+        },
+        "empty",
+        {
+          "param": "Tone",
+          "widget": "knob"
+        },
+        {
+          "param": "Resonance",
+          "widget": "knob"
+        },
+        {
+          "param": "Decay",
+          "widget": "fader"
+        },
+        "empty",
+        {
+          "param": "Detune",
+          "widget": "knob"
+        },
+        "empty",
+        {
+          "param": "Sustain",
+          "widget": "fader"
+        },
+        "empty",
+        {
+          "param": "Env Amount",
+          "widget": "knob"
+        },
+        "empty",
+        {
+          "param": "Release",
+          "widget": "fader"
+        }
+      ]
+    },
+    {
+      "name": "FX",
+      "controls": [
+        {
+          "param": "Chorus",
+          "widget": "fader"
+        },
+        {
+          "param": "Delay",
+          "widget": "fader"
+        },
+        {
+          "param": "Reverb",
+          "widget": "fader"
+        },
+        "empty",
+        {
+          "param": "Drive",
+          "widget": "knob"
+        },
+        {
+          "param": "Delay Time",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Room Size",
+          "widget": "knob"
+        },
+        "empty",
+        "empty",
+        {
+          "param": "Feedback",
+          "widget": "knob"
+        },
+        "empty",
+        "empty",
+        {
+          "param": "Volume",
+          "widget": "fader"
+        }
+      ]
+    }
+  ],
+  "style": {
+    "background": "fff3e7d0",
+    "text": "ff140d07",
+    "muted": "ff4e2a0e",
+    "accent": "ffc98a1e"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Honey Root",
+  "manufacturer": "N8b",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "instrument",
+  "uid": "N8Hr",
+  "numInputs": 0,
+  "numOutputs": 2,
+  "category": "Synth",
+  "file32": "VST/honey-root-arm32.so",
+  "file64": "VST/honey-root-arm64.so",
+  "description": "Two-handed chord machine: chord keys under the left hand, roots under the right. Lock, voicing, Key Mode, a bass part that follows, strum, slop, arp, pattern and harp.",
+  "author": "N8b",
+  "url": "",
+  "license": "MIT"
+}
